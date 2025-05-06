@@ -1,0 +1,7 @@
+Using this code in the easiest way possible will require the user to use google colab and google drive. Preferably, a folder should be created in drive that contains the code and dataset. After this this has been done, all commands within the code that include a file path should be altered to direct to the correct path on the user's google drive.
+
+API Key: When training the SBERT model, the output will prompt for an API key. This was only required because we used wandb.ai's automatic training metrics/visualization feature to evaluate our model's training. The API key is shown below and also included as a comment in the code. All the user needs to do is copy and paste into the prompt and press enter.
+
+42a83ecaac9134fb2a23a96d407d5c37100c727a
+
+All installations required are included in the code, so there is no need to worry about downloading libraries or packages.
